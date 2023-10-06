@@ -7,7 +7,7 @@ public class Main {
 
         Thread thread3 = new Thread(new Runnable() {
             @Override
-            public void run() {
+            public void run(){
                 for (int i = 0; i < 20; i++) {
                     try {
                         Thread.sleep(500);
